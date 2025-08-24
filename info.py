@@ -53,8 +53,8 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://golumandal369:rItv
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "0"))
-DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003074425574"))
+DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002872983818"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1003074425574")
 REQUEST_CHANNEL = (
     int(request_channel)
