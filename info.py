@@ -70,22 +70,22 @@ MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/movies_request_
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Themoviesnexustutorial/11")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Themoviesnexustutorial/11")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "f64c396e2eecef292e59c04bf38fbf20037605a9")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arlinks.in")
 SHORTENER_API2 = environ.get(
-    "SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    "SHORTENER_API2", "3f69d82334c1797bd2a7a80018a370d86d5dcc96"
 )
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "omegalinks.in")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "seturl.in")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799"
+    "SHORTENER_API3", "f64c396e2eecef292e59c04bf38fbf20037605a9"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arlinks.in")
 TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "14400"))
 THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "14400"))
 
@@ -130,13 +130,13 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg",
+        "https://envs.sh/uM5.jpg",
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg")
+    environ.get("PAYPICS", "")
 ).split()
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://graph.org/file/9f3f47c690bbcc67633c2.jpg"
@@ -147,14 +147,14 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 # Other Funtions
 FILE_AUTO_DEL_TIMER = int(environ.get("FILE_AUTO_DEL_TIMER", "600"))
 AUTO_FILTER = is_enabled("AUTO_FILTER", True)
-IS_PM_SEARCH = is_enabled("IS_PM_SEARCH", False)
+IS_PM_SEARCH = is_enabled("IS_PM_SEARCH", True)
 IS_SEND_MOVIE_UPDATE = is_enabled(
     "IS_SEND_MOVIE_UPDATE", False
 )  # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
 MAX_BTN = int(environ.get("MAX_BTN", "8"))
 AUTO_DELETE = is_enabled("AUTO_DELETE", True)
 DELETE_TIME = int(environ.get("DELETE_TIME", 1200))
-IMDB = is_enabled("IMDB", False)
+IMDB = is_enabled("IMDB", True)
 FILE_CAPTION = environ.get("FILE_CAPTION", f"{script.FILE_CAPTION}")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
