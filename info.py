@@ -71,7 +71,7 @@ MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/movies_request_
 IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Themoviesnexustutorial/11")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Themoviesnexustutorial/12")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Themoviesnexustutorial/11")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
@@ -154,7 +154,7 @@ IS_SEND_MOVIE_UPDATE = is_enabled(
 MAX_BTN = int(environ.get("MAX_BTN", "8"))
 AUTO_DELETE = is_enabled("AUTO_DELETE", True)
 DELETE_TIME = int(environ.get("DELETE_TIME", 1200))
-IMDB = is_enabled("IMDB", True)
+IMDB = is_enabled("IMDB", False)
 FILE_CAPTION = environ.get("FILE_CAPTION", f"{script.FILE_CAPTION}")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
