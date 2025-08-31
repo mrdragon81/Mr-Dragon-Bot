@@ -24,7 +24,7 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "6859451629 8211449985").split()
+    for admin in environ.get("ADMINS", "8211449985").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "KeshavTheOwner"
