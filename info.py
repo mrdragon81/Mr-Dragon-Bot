@@ -24,7 +24,7 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "8211449985").split()
+    for admin in environ.get("ADMINS", "8211449985 6859451629").split()
 ]
 OWNER_USERNAME = environ.get(
     "OWNER_USERNAME", "KeshavTheOwner"
@@ -34,7 +34,7 @@ USERNAME = environ.get("USERNAME", "KeshavTheOwner")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002908843106").split()
+    for ch in environ.get("CHANNELS", "-1002908843106 -1002372764752").split()
 ]
 
 # ForceSub Channel & Log Channels
