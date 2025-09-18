@@ -24,25 +24,25 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "8211449985 6859451629").split()
+    for admin in environ.get("ADMINS", "8141314253 6859451629").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "KeshavTheOwner"
+    "OWNER_USERNAME", "MrDragon11"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "KeshavTheOwner")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "MrDragon11")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002908843106 -1002372764752").split()
+    for ch in environ.get("CHANNELS", "-1002542788675").split()
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002872983818"))
-AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1003074425574"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002939065390"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002939065390"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002939065390"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002868802089"))
+AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002868802089"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002988640125"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002988640125"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002988640125"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://devic5348:devic5348@cluster0.sczi6ga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -53,22 +53,22 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://mrdragon:mrdragon@
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "jisshu")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003074425574"))
-DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002872983818"))
-request_channel = environ.get("REQUEST_CHANNEL", "-1003074425574")
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003019479337"))
+DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "-1002988640125"))
+request_channel = environ.get("REQUEST_CHANNEL", "-1002800325917")
 REQUEST_CHANNEL = (
     int(request_channel)
     if request_channel and id_pattern.search(request_channel)
     else None
 )
-MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002872983818"))
+MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002868802089"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "")
-MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/movies_request_groups_9")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+s5et_Xgzy0w4NTA1")
+MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/KarnatakaKingmovies")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", True)
+IS_VERIFY = is_enabled("IS_VERIFY", False)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/Themoviesnexustutorial/11")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Themoviesnexustutorial/12")
