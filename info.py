@@ -68,26 +68,26 @@ SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+s5et_Xgzy0w4NTA1")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/KarnatakaKingmovies")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", False)
+IS_VERIFY = is_enabled("IS_VERIFY", true)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Themoviesnexustutorial/11")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Themoviesnexustutorial/12")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Themoviesnexustutorial/11")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+eyU9y6FW6n42ODNl")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+eyU9y6FW6n42ODNl")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+eyU9y6FW6n42ODNl")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
-SHORTENER_API = environ.get("SHORTENER_API", "f64c396e2eecef292e59c04bf38fbf20037605a9")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arlinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "b460d2482ff023d8ce65e20415c7994ea8d68ae0")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortxlinks.com")
 SHORTENER_API2 = environ.get(
-    "SHORTENER_API2", "3f69d82334c1797bd2a7a80018a370d86d5dcc96"
+    "SHORTENER_API2", "b460d2482ff023d8ce65e20415c7994ea8d68ae0"
 )
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "seturl.in")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortxlinks.com")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "f64c396e2eecef292e59c04bf38fbf20037605a9"
+    "SHORTENER_API3", "b460d2482ff023d8ce65e20415c7994ea8d68ae0"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arlinks.in")
-TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "300"))
-THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "14400"))
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shortxlinks.com")
+TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "1800"))
+THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "1800"))
 
 # Language & Quality & Season & Year
 LANGUAGES = [
