@@ -70,9 +70,9 @@ MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/KarnatakaKingmo
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/+eyU9y6FW6n42ODNl")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+eyU9y6FW6n42ODNl")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+eyU9y6FW6n42ODNl")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+DLC4ztUnnVdmYzY1")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+DLC4ztUnnVdmYzY1")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+DLC4ztUnnVdmYzY1")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
