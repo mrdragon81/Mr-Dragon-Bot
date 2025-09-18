@@ -1435,7 +1435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton(
                     "☆📸 ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸☆",
-                    url=f"https://telegram.me/KeshavTheOwner",
+                    url=f"https://telegram.me/MrDragon11",
                 )
             ],
             [InlineKeyboardButton("💎 ᴄᴜꜱᴛᴏᴍ ᴘʟᴀɴ 💎", callback_data="other")],
@@ -1460,7 +1460,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ", url=f"https://telegram.me/KeshavTheOwner"
+                    "📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ", url=f"https://telegram.me/MrDragon11"
                 )
             ],
             [InlineKeyboardButton("• 𝗕𝗮𝗰𝗸 •", callback_data="free")],
