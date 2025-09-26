@@ -293,7 +293,7 @@ User - {}"""
  ❏ 300₹    ➠    𝟷𝟸 ᴍᴏɴᴛʜ
  ❏ 500₹    ➠    ʟɪғᴇᴛɪᴍᴇ
 
-🆔 ᴜᴘɪ ɪᴅ ➩ <code>9353921332@superyes</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>dondlli@ybl</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
@@ -445,6 +445,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://t.me/MrDragon11">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://t.me/MrDragon11">MrDragon ♡</a></b>"""
+
 
 
 
