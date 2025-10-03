@@ -24,12 +24,12 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "8141314253 6859451629").split()
+    for admin in environ.get("ADMINS", "8141314253 ").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "MrDragon11"
+    "OWNER_USERNAME", "@MEEDRAGONBOT"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "MrDragon11")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "@MEEDRAGONBOT")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
@@ -127,9 +127,9 @@ YEARS = [f"{i}" for i in range(2025, 2002, -1)]
 SEASONS = [f"season {i}" for i in range(1, 23)]
 
 # Pictures And Reaction
-START_IMG = (
+START_IMG = (💯😊
     environ.get(
-        "START_IMG",
+        "START_IMG"💯,
         "https://telegra.ph/file/7e56d907542396289fee4.jpg https://telegra.ph/file/9aa8dd372f4739fe02d85.jpg https://telegra.ph/file/adffc5ce502f5578e2806.jpg https://telegra.ph/file/6937b60bc2617597b92fd.jpg https://telegra.ph/file/09a7abaab340143f9c7e7.jpg https://telegra.ph/file/5a82c4a59bd04d415af1c.jpg https://telegra.ph/file/323986d3bd9c4c1b3cb26.jpg https://telegra.ph/file/b8a82dcb89fb296f92ca0.jpg https://telegra.ph/file/31adab039a85ed88e22b0.jpg https://telegra.ph/file/c0e0f4c3ed53ac8438f34.jpg https://telegra.ph/file/eede835fb3c37e07c9cee.jpg https://telegra.ph/file/e17d2d068f71a9867d554.jpg https://telegra.ph/file/8fb1ae7d995e8735a7c25.jpg https://telegra.ph/file/8fed19586b4aa019ec215.jpg https://telegra.ph/file/8e6c923abd6139083e1de.jpg https://telegra.ph/file/0049d801d29e83d68b001.jpg",
     )
 ).split()
