@@ -33,7 +33,7 @@ USERNAME = environ.get("USERNAME", "@MEEDRAGONBOT")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
-    int(ch) if id_pattern.search(ch) else ch
+    int(ch) if id_pattern.search(-1002912062084) else ch
     for ch in environ.get("CHANNELS", "-1002542788675").split()
 ]
 
