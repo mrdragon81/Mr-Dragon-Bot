@@ -24,12 +24,12 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "@MEEDRAGONBOT").split()
+    for admin in environ.get("ADMINS", "8141314253").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "@MEEDRAGONBOT"
+    "OWNER_USERNAME", "MRDRAGON11"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "@MEEDRAGONBOT")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "mrdragon")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
@@ -46,7 +46,7 @@ LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002988640125"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://mrdragon82:mrdragon82@cluster0.25cqmdm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_NAME = environ.get("DATABASE_NAME", "mrdragon82")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://mrdragon:mrdragon@cluster0.ebdcfhn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -68,7 +68,7 @@ SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+s5et_Xgzy0w4NTA1")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/KarnatakaKingmovies")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", True)
+IS_VERIFY = is_enabled("IS_VERIFY", False)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+DLC4ztUnnVdmYzY1")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+DLC4ztUnnVdmYzY1")
@@ -164,7 +164,7 @@ LINK_MODE = is_enabled("LINK_MODE", True)
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
 
 # Online Streaming And Download
-STREAM_MODE = bool(environ.get("STREAM_MODE", True))  # Set True or Flase
+STREAM_MODE = bool(environ.get("STREAM_MODE", False))  # Set True or Flase
 
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))
