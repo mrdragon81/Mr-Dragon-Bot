@@ -45,9 +45,9 @@ pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 async def Jisshu_start():
     print("\n")
-    print("Credit - Telegram @JISSHU_BOTS")
-    bot_info = await JisshuBot.get_me()
-    JisshuBot.username = bot_info.username
+    print("Credit - Telegram @dragondataabot")
+    bot_info = await dragondataabot.get_me()
+    dragondataabot.username = bot_info.username
     await initialize_clients()
     for name in files:
         with open(name) as a:
