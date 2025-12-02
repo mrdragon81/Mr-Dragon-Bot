@@ -50,7 +50,7 @@ DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://mrdragon:mrdragon@cluster0.ebdcfhn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "@MEEDRAGONBOT")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "MRDRAGONCOLLECTION")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003019479337"))
